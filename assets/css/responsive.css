@@ -1,0 +1,207 @@
+@media all and (max-width:1150px) {
+   /*menu area*/
+    .menu ul li a{
+       padding: 0 7px;
+    }
+    .menu ul{
+        justify-content: flex-start;
+    }
+    .logo p{
+        margin-left: -10px;
+    }
+    .features-image {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 20px 0;
+        padding: 20px;
+    }
+    .footer-area {
+        padding: 37px;
+    }
+    .video-item {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+@media all and (max-width: 1076px) {
+     /*menu*/
+     .menu ul li a{
+        font-size: 14px;
+     }
+      .logo p {
+        margin-left:0;
+        font-size: 8px;
+    }
+    .logo{
+        justify-content: flex-start;
+    }
+   
+}
+
+
+
+
+@media all and (max-width: 991px) {
+     .row.menu-top {
+        display: flex;
+        align-items: center;
+    }
+    .mobile-icon ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .mobile-icon{
+        display: block;
+    }
+    .logo p {
+        font-size: 10px;
+        
+    }
+    .menu ul li:last-child{
+        display: none;
+    }
+    .menu-items {
+        position: absolute;
+        display: none;
+        top:25%;
+        left:0%;
+        z-index: 11;
+        width: 50%;
+       
+    }
+   
+    .menu-items  ul {
+        display: block;
+        flex-direction: column;
+        background: #fff;
+    }
+  
+    .menu ul ul {
+        
+        flex-direction: column;
+        position: absolute; 
+        width: 224px;
+        top: 50%;
+        left: 100%;
+        background: #E5A221;
+        display: none;
+    }
+    .menu-items ul li:hover {
+         background: #E5A221;
+         color: #fff;
+    }
+    .menu-items ul li{
+        text-align: center;
+        padding:5px;
+    }
+    .menu ul ul li{
+        padding:0;
+    }
+    .dt p {
+        font-size: 12px;
+    }
+    .single-activity.pbb {
+        padding-bottom: 104px;
+    }
+    .amader-seba ul li {
+        font-size: 12px;
+    }
+    .single-activity ul li span {
+        margin-left:0;
+    }
+    .padding-bottom {
+        padding-bottom: 86px;
+    }
+    .budget {
+        padding-bottom: 45px;
+    }
+}
+
+
+
+
+
+@media all and (max-width: 767px) {
+    .menu-items {
+        position: absolute;
+        display: noe;
+        top: 35%;
+        left:0%;
+        z-index: 11;
+        width: 50%;
+    }
+    .single-activity.mt-5 ul li {
+        font-size: 12px;
+    }
+}
+
+
+
+@media all and (max-width: 576px) {
+    .menu-items {
+        position: absolute;
+        display: none;
+        top: 38%;
+        left:0%;
+        z-index: 11;
+        width: 50%;
+    }
+    .notice-board {
+        margin: 20px 15px;
+    }
+    .notice-intro {
+        margin: 25px 15px;
+    }
+    .amader-kotha h2 {
+        text-align: center;
+        font-size: 25px;
+        margin-bottom:-20px;
+    }
+    .amader-kotha p {
+        margin: 20px 15px;
+    }
+    .headline h1 {
+        text-align: center;
+    }
+    .single-activity.pb {
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+    }
+    .single-img {
+        margin: auto;
+    }
+    .single-activity.pbb {
+        padding: 20px;
+        margin: 15px;
+    }
+    .notice-intro.mt {
+        margin-top: 35px;
+    }
+    .single-activity h2 {
+        text-align: center;
+    }
+    .single-activity ul li{
+        padding: 10px;
+    }
+    .single-activity p {
+        padding: 10px 0;
+    }
+    .single-activity p {
+        text-align: center;
+    }
+    .single-activity.mt-5 {
+        margin: 0 15px;
+        padding:20px;
+    }
+    .video-item {
+        margin: 20px 120px;
+       
+    }
+
+
+}
